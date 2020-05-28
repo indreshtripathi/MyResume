@@ -1,0 +1,29 @@
+
+body {
+  margin: 30px;
+}
+h1 {
+  font-size: 30px;
+}
+.skills {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  list-style: none;
+}
+
+label {
+  font-weight: bold;
+}
+
+h1, h2 {
+  border-bottom: 1px solid lightgrey;
+}
+
+div {
+  padding: 2px 0;
+}
+
+li {
+  margin: 5px 0;
+}
