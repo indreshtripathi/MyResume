@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-
+      <h1>{`${resumeData.info.name} (${resumeData.info.currentRole})`}</h1>
       <CandidateInfo info={resumeData.info} />
       <Objective objective={resumeData.objective} />
       <Skills skills={resumeData.skills} />
